@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		778B4C9E2FA7A2B2006BE434 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 778B4C9D2FA7A2B2006BE434 /* GRDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		778B4C722FA7993E006BE434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778B4C5C2FA7993B006BE434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778B4C632FA7993B006BE434;
+			remoteInfo = TaiwanShelters;
+		};
+		778B4C7C2FA7993E006BE434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 778B4C5C2FA7993B006BE434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 778B4C632FA7993B006BE434;
+			remoteInfo = TaiwanShelters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		778B4C642FA7993B006BE434 /* TaiwanShelters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwanShelters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B4C712FA7993E006BE434 /* TaiwanSheltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanSheltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		778B4C7B2FA7993E006BE434 /* TaiwanSheltersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanSheltersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		778B4CAA2FA7A714006BE434 /* Exceptions for "TaiwanShelters" folder in "TaiwanShelters" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 778B4C632FA7993B006BE434 /* TaiwanShelters */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		778B4C662FA7993B006BE434 /* TaiwanShelters */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				778B4CAA2FA7A714006BE434 /* Exceptions for "TaiwanShelters" folder in "TaiwanShelters" target */,
+			);
+			path = TaiwanShelters;
+			sourceTree = "<group>";
+		};
+		778B4C742FA7993E006BE434 /* TaiwanSheltersTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaiwanSheltersTests;
+			sourceTree = "<group>";
+		};
+		778B4C7E2FA7993E006BE434 /* TaiwanSheltersUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TaiwanSheltersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		778B4C612FA7993B006BE434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778B4C9E2FA7A2B2006BE434 /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C6E2FA7993E006BE434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C782FA7993E006BE434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		778B4C5B2FA7993B006BE434 = {
+			isa = PBXGroup;
+			children = (
+				778B4C662FA7993B006BE434 /* TaiwanShelters */,
+				778B4C742FA7993E006BE434 /* TaiwanSheltersTests */,
+				778B4C7E2FA7993E006BE434 /* TaiwanSheltersUITests */,
+				778B4C652FA7993B006BE434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		778B4C652FA7993B006BE434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				778B4C642FA7993B006BE434 /* TaiwanShelters.app */,
+				778B4C712FA7993E006BE434 /* TaiwanSheltersTests.xctest */,
+				778B4C7B2FA7993E006BE434 /* TaiwanSheltersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		778B4C632FA7993B006BE434 /* TaiwanShelters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778B4C852FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanShelters" */;
+			buildPhases = (
+				778B4C602FA7993B006BE434 /* Sources */,
+				778B4C612FA7993B006BE434 /* Frameworks */,
+				778B4C622FA7993B006BE434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				778B4C662FA7993B006BE434 /* TaiwanShelters */,
+			);
+			name = TaiwanShelters;
+			packageProductDependencies = (
+				778B4C9D2FA7A2B2006BE434 /* GRDB */,
+			);
+			productName = TaiwanShelters;
+			productReference = 778B4C642FA7993B006BE434 /* TaiwanShelters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		778B4C702FA7993E006BE434 /* TaiwanSheltersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778B4C882FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanSheltersTests" */;
+			buildPhases = (
+				778B4C6D2FA7993E006BE434 /* Sources */,
+				778B4C6E2FA7993E006BE434 /* Frameworks */,
+				778B4C6F2FA7993E006BE434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778B4C732FA7993E006BE434 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				778B4C742FA7993E006BE434 /* TaiwanSheltersTests */,
+			);
+			name = TaiwanSheltersTests;
+			packageProductDependencies = (
+			);
+			productName = TaiwanSheltersTests;
+			productReference = 778B4C712FA7993E006BE434 /* TaiwanSheltersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		778B4C7A2FA7993E006BE434 /* TaiwanSheltersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778B4C8B2FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanSheltersUITests" */;
+			buildPhases = (
+				778B4C772FA7993E006BE434 /* Sources */,
+				778B4C782FA7993E006BE434 /* Frameworks */,
+				778B4C792FA7993E006BE434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				778B4C7D2FA7993E006BE434 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				778B4C7E2FA7993E006BE434 /* TaiwanSheltersUITests */,
+			);
+			name = TaiwanSheltersUITests;
+			packageProductDependencies = (
+			);
+			productName = TaiwanSheltersUITests;
+			productReference = 778B4C7B2FA7993E006BE434 /* TaiwanSheltersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		778B4C5C2FA7993B006BE434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					778B4C632FA7993B006BE434 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					778B4C702FA7993E006BE434 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 778B4C632FA7993B006BE434;
+					};
+					778B4C7A2FA7993E006BE434 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 778B4C632FA7993B006BE434;
+					};
+				};
+			};
+			buildConfigurationList = 778B4C5F2FA7993B006BE434 /* Build configuration list for PBXProject "TaiwanShelters" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+				id,
+				vi,
+			);
+			mainGroup = 778B4C5B2FA7993B006BE434;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				778B4C9C2FA7A2B2006BE434 /* XCRemoteSwiftPackageReference "GRDB" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 778B4C652FA7993B006BE434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				778B4C632FA7993B006BE434 /* TaiwanShelters */,
+				778B4C702FA7993E006BE434 /* TaiwanSheltersTests */,
+				778B4C7A2FA7993E006BE434 /* TaiwanSheltersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778B4C622FA7993B006BE434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C6F2FA7993E006BE434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C792FA7993E006BE434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778B4C602FA7993B006BE434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C6D2FA7993E006BE434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778B4C772FA7993E006BE434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		778B4C732FA7993E006BE434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778B4C632FA7993B006BE434 /* TaiwanShelters */;
+			targetProxy = 778B4C722FA7993E006BE434 /* PBXContainerItemProxy */;
+		};
+		778B4C7D2FA7993E006BE434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 778B4C632FA7993B006BE434 /* TaiwanShelters */;
+			targetProxy = 778B4C7C2FA7993E006BE434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		778B4C832FA7993E006BE434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		778B4C842FA7993E006BE434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		778B4C862FA7993E006BE434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaiwanShelters/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to find the nearest air-raid shelters to your current location.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanShelters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778B4C872FA7993E006BE434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaiwanShelters/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to find the nearest air-raid shelters to your current location.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanShelters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		778B4C892FA7993E006BE434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanSheltersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaiwanShelters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaiwanShelters";
+			};
+			name = Debug;
+		};
+		778B4C8A2FA7993E006BE434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanSheltersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaiwanShelters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaiwanShelters";
+			};
+			name = Release;
+		};
+		778B4C8C2FA7993E006BE434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanSheltersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaiwanShelters;
+			};
+			name = Debug;
+		};
+		778B4C8D2FA7993E006BE434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bandler.TaiwanSheltersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TaiwanShelters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		778B4C5F2FA7993B006BE434 /* Build configuration list for PBXProject "TaiwanShelters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778B4C832FA7993E006BE434 /* Debug */,
+				778B4C842FA7993E006BE434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778B4C852FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanShelters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778B4C862FA7993E006BE434 /* Debug */,
+				778B4C872FA7993E006BE434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778B4C882FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanSheltersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778B4C892FA7993E006BE434 /* Debug */,
+				778B4C8A2FA7993E006BE434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778B4C8B2FA7993E006BE434 /* Build configuration list for PBXNativeTarget "TaiwanSheltersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				778B4C8C2FA7993E006BE434 /* Debug */,
+				778B4C8D2FA7993E006BE434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		778B4C9C2FA7A2B2006BE434 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		778B4C9D2FA7A2B2006BE434 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 778B4C9C2FA7A2B2006BE434 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 778B4C5C2FA7993B006BE434 /* Project object */;
+}
